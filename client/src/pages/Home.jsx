@@ -11,9 +11,6 @@ function Home(props) {
       <NavBar />
       <main>
         <div className="page-subtext">
-          <p>
-            Landing pad for my portfolio site
-          </p>
           <div className="page-section">
             <h3>Hello!</h3>
             <p>
@@ -32,7 +29,7 @@ function Home(props) {
               <p>
                 A Python project that takes 3D models and renders user defined animations into GIF files
               </p>
-              <img className="media" src="resources\projects\Animated_3D_Renderer\ball_bounce.gif" />
+              <img className="media" src="src/assets/projects/animated3DRenderer/ballBounce.gif" />
             </div>
             <div className="project-description">
               <h3>COOL Compiler</h3>

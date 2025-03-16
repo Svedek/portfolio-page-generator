@@ -5,10 +5,10 @@ import FooterSendOff from '../components/footerSendOff.jsx'
 const Layout = () => {
 
   return (
-    <main>
+    <>
       <Outlet />
       <FooterSendOff />
-    </main>
+    </>
   )
 };
 

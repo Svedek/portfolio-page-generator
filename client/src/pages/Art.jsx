@@ -9,7 +9,15 @@ function Art(props) {
     <>
       <Header pageTitle={pageTitle} />
       <NavBar />
-		  <main> ART PAGE </main>
+		  <main>
+        <div class="page-subtext">
+          <p>Under Construction.</p>
+        </div>
+			
+        <footer>
+          <p><a href="#page-head">Top</a></p>
+        </footer>
+      </main>
     </>
   )
 };
