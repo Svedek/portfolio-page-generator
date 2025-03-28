@@ -7,10 +7,10 @@ function FooterSendOff() {
       <div className="fill-space"></div>
       <div className="small-icon-container">
         <a href="https://github.com/Svedek" target="_blank">
-          <img src={"assets/general/github-mark-white.png"} />
+          <img src={"src/assets/general/github-mark-white.png"} />
         </a>
         <a href="https://svedek.itch.io/" target="_blank">
-          <img src={"assets/general/itchio-textless-white.svg"} />
+          <img src={"src/assets/general/itchio-textless-white.svg"} />
         </a>
       </div>
     </footer>

@@ -44,7 +44,7 @@ function Home(props) {
                 <p>
                   A modular Python program that renders an animated scene into a GIF file. The scene, meshes, lighting, shading algorithm, and frame rate of the animation can all be customized by the user.
                 </p>
-                <img className="media" src="assets/projects/animated3DRenderer/ballBounce.gif" />
+                <img className="media" src="src/assets/projects/animated3DRenderer/ballBounce.gif" />
               </div>
               <div className="project-description">
                 <h3>COOL Compiler</h3>
