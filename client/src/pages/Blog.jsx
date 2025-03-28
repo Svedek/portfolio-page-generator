@@ -4,11 +4,17 @@ import Button from '../components/button';
 import { querry, numItems } from '../pseudobase/blogPseudobase.jsx';
 import PostList from '../components/postList/postList.jsx';
 
+import { useEffect } from 'react';
+
 // 
 function Blog(props) {
-	const {
-		pageTitle,
-	} = props;
+  const {
+    pageTitle,
+  } = props;
+
+  useEffect(() => {
+    document.title = pageTitle || "";
+  }, [pageTitle]);
 
   return (
     <>

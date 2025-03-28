@@ -2,13 +2,21 @@ import Header from '../components/header';
 import NavBar from "../components/navBar";
 import Button from '../components/button';
 
+import { useEffect } from 'react';
+
 // TODO import project descriptions from pseudobase
 // TODO make projects clickable to directly view them
 // import { querryByTitle } from '../pseudobase/projectsPseudobase'  
 
 // The body of the page loaded by default
 function Home(props) {
-  const pageTitle = props.pageTitle;
+  const {
+    pageTitle,
+  } = props;
+
+  useEffect(() => {
+    document.title = pageTitle || "";
+  }, [pageTitle]);
 
   return (
     <>

@@ -3,9 +3,17 @@ import Header from '../components/header.jsx';
 import NavBar from "../components/navBar";
 import Button from '../components/button';
 
+import { useEffect } from 'react';
+
 // 
 function Bio(props) {
-  const pageTitle = props.pageTitle;
+	const {
+		pageTitle,
+	} = props;
+
+	useEffect(() => {
+		document.title = pageTitle || "";
+	}, [pageTitle]);
 
   return (
     <>

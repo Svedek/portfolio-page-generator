@@ -19,7 +19,7 @@ function App() {
           <Route path="bio" element={<Bio pageTitle="Bio" />} />
           <Route path="blog" element={<Blog pageTitle="Blog" />} />
           <Route path="projects" element={<Projects pageTitle="Projects" />} />
-          <Route path="art" element={<Art pageTitle="Art" />} />
+          <Route path="art" element={<Art pageTitle="Art" />}/>
           <Route path="*" element={<NoPage pageTitle="Page Not Found" />} />
         </Route>
       </Routes>
