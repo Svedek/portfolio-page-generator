@@ -147,8 +147,8 @@ const table = [
           Admittedly, the renderer is quite slow to process the animation, but this slow rendering is not reflected in the final animation. Below are two examples of rendered animations:
         </p>
         <MediaContainer>
-          <Image src="src/assets/projects/animated3DRenderer/ballBounce.gif" />
-          <Image src="src/assets/projects/animated3DRenderer/rotate.gif" />
+          <Image src="assets/projects/animated3DRenderer/ballBounce.gif" />
+          <Image src="assets/projects/animated3DRenderer/rotate.gif" />
         </MediaContainer>
         <p>
           The original project, being a static image renderer with no file output, was created as a semester-long project in the course Fundamentals-Computer Graphics. The animation extension was an entirely personal addition to my renderer. Completing the project gave me a new appreciation for rendering 3D spaces and the work required to create a high quality and speedy renderer.
