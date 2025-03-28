@@ -1,0 +1,19 @@
+/* Svedek */
+
+
+/* PostList */
+
+
+/* PostNavigator */
+nav.post-navigator {
+  display: flex;
+  justify-content: center;
+}
+
+.post-navigator * {
+  margin: auto 8px;
+}
+
+/* PostItem */
+
+

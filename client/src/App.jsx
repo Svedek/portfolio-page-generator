@@ -8,30 +8,10 @@ import Art from './pages/Art.jsx'
 import NoPage from './pages/NoPage.jsx'
 import Layout from './pages/Layout.jsx'
 
-
-
-// The unsure zone:
-import { useState } from 'react'
 import './App.css'
 
-import Header from './components/header.jsx'
-
-
-const Pages = {
-  HOME: 'Home',
-  BIO: 'Bio',
-  BLOG: 'Blog',
-  PROJECTS: 'Projects',
-  ART: 'Art'
-}
-
 function App() {
-  const [page, setPage] = useState(Pages.HOME)
-
-  console.log(page);
-
   return (
-    <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -44,7 +24,6 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-    </>
   )
 }
 

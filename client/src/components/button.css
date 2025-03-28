@@ -1,0 +1,38 @@
+/* Svedek */
+
+.interactable {
+  color: var(--interactable-color);
+
+  font-size: medium;
+  font-family: "Lucida Console", monospace;
+
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.interactable:hover {
+  color: var(--interactable-hover-color);
+}
+
+.interactable:disabled {
+  color: var(--interactable-unavailable-color);
+}
+
+
+/* Actually button specific */
+
+
+button {
+  /* background-color: var(--background-color); */
+
+  border-width: 0;
+  background-color:transparent;
+
+  cursor:pointer;
+}
+
+button:disabled {
+  /* background-color: var(--foreground-color); */
+
+  cursor:default;
+}

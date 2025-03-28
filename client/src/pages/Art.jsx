@@ -1,5 +1,6 @@
-import Header from '../components/header.jsx'
-import NavBar from "../components/navBar";
+import Header from '../components/header.jsx';
+import NavBar from "../components/navBar.jsx";
+import Button from '../components/button';
 
 // 
 function Art(props) {
@@ -10,12 +11,16 @@ function Art(props) {
       <Header pageTitle={pageTitle} />
       <NavBar />
 		  <main>
-        <div class="page-subtext">
+        <div className="page-subtext">
           <p>Under Construction.</p>
         </div>
 			
         <footer>
-          <p><a href="#page-head">Top</a></p>
+          <p>  {/* TODO FIX THIS (needs <p> around button to be properly spaced) */}
+            <Button onClick={() => {window.scrollTo(top)}}>
+              Top
+            </Button>
+          </p>
         </footer>
       </main>
     </>

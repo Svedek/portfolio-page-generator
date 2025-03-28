@@ -10,7 +10,7 @@ function NavBar() {
         <li> <Link to="/bio">Bio</Link> </li>
         <li> <Link to="/blog">Blog</Link> </li>
         <li> <Link to="/projects">Projects</Link> </li>
-        <li> <Link to="/art">Art</Link> </li>
+        {/* <li> <Link to="/art">Art</Link> </li> */}
       </ul>
     </nav>
   )
